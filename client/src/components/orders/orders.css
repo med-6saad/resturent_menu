@@ -1,0 +1,73 @@
+.orderContainer{
+    width: calc(100vw - 240px);
+    height: calc(100vh - 50px);
+    display: flex;
+    background:rgb(227, 235, 249);
+    justify-content: center;
+    align-items: center;
+}
+
+.wopperOrders{
+    width: 90%;
+    height: 80%;
+    border-radius: 20px;
+    display: flex;
+    background: rgb(227, 235, 249);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.headerOrder-head{
+    width: 98%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(227, 235, 249);;
+    height: 30px;
+    align-items: center;
+    padding: 20px 0;
+    margin-left: 20px;
+    margin-right: 25px;
+    justify-content: space-around;
+    opacity: .3;
+}
+.wopperOrder-body{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: 4px;
+}
+.bodyOrders{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+    margin: 10px 5px;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+.header{
+    width: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.deleteIcon{
+    width: 20px;
+    height: 20px;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+.underWay{
+    font-size: 10px;
+
+}
+.checkBoxContainer{
+    display: flex;
+    justify-content: space-around;
+}

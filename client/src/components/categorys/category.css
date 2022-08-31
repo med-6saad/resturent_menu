@@ -1,0 +1,84 @@
+.containerCategory{
+    width: calc(100vw - 220px);
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(186, 221, 251);
+    align-items: center;
+}
+.wopperCat{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    overflow-y: scroll; 
+}
+.headerTable{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-right: 40px;
+}
+.blockCat{
+    background: white;
+    border-radius: 20px;
+    margin: 30px 0px 5px ;
+    width: 100%;
+}
+.showFoods{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.categorys{
+    cursor: pointer;
+}
+.inputCat{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addCatInput{
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+}
+.addCatInput:focus{
+    outline: none;
+}
+.addCatName{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(69, 249, 69);
+    color: white;
+    border: none;
+}
+.foodsCat{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    align-items: center;
+}
+.imgFoodCat{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.descCat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    overflow: scroll;
+}
+.bodyTable{
+    border-top: 1px solid black;
+}

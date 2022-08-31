@@ -1,0 +1,58 @@
+.adminNavBar{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.GlobalCompany{
+    margin-left: 30px;
+}
+.profile{
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profileImg{
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+}
+.search{
+    width: 400px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid black;
+    opacity: .7;
+}
+.searshInput{
+    width: 320px;
+    height: 30px;
+    border: none;
+}
+.searshInput:focus{
+    outline: none;
+}
+.searchIcon{
+    width: 25px;
+    height: 25px;
+}
+.logoImg{
+    width: 40px;
+    height: 40px;
+}
+.logOutBtn{
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(196, 189, 233);
+}
+
+.logOutBtn:hover{
+    background-color: rgb(166, 61, 214);
+    color: white;
+}

@@ -1,0 +1,82 @@
+.adminSideBar{
+    width: 240px;
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(226, 223, 233);
+}
+.total{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.total span{
+    margin: 0;
+}
+.total h2{
+    margin: 0;
+}
+.comandNumber{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.comand{
+    background-color: rgb(196, 189, 233);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+.comand h2{
+    margin: 0;
+    font-size: 20px;
+}
+.comand span{
+    margin: 0;
+}
+.miniPages{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.Icon{
+    width: 30px;
+    height: 30px;
+}
+
+.routesIcon{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    width: 100%;
+}
+.routesIcon h4{
+    margin-left: 10px;
+}
+.routesIcon:hover{
+    background: rgb(166, 61, 214);
+    border-radius: 10px;
+    margin-left: 40px;
+    cursor: pointer;
+    color: white;
+}
+.comand:hover{
+    background: rgb(166, 61, 214);
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}

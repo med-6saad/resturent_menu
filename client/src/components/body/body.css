@@ -1,0 +1,58 @@
+.body{
+    width: 100wh;
+    background: #d5d0e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+.descCategory{
+    width: 50%;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color: rgb(36, 75, 184);
+}
+.imgFoodCategory{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.foodsContainer{
+    background: white;
+    width: 97vw;
+    height: 90vh;
+    overflow-y:auto;
+    border-radius: 40px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+.footerBody{
+    position: relative;
+    margin-top: 40px;
+}
+.text{
+    width: 350px;
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color: rgb(36, 75, 184);
+    top: 200px;
+    right: 40%;
+    align-items: center;
+}
+
+@media only screen and (max-width:500px) {
+    .text{
+        font-size: 10px;
+        top: 130px;
+        right: 10%;
+    }
+}

@@ -1,0 +1,96 @@
+.footerContainer{
+    width: 100vw;
+    height: 450px;
+    display: flex;
+    color: white;
+    background: #333;
+}
+.socialMedia{
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.links{
+    flex:1;
+    padding: 40px;
+}
+.textSocial{
+    width: 90%;
+    padding-left: 15px;
+}
+.contactUs{
+    flex: 1;
+    padding: 40px;
+}
+.sodialMediaIcons{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+}
+.email{
+    display: flex;
+    align-items: center;
+}
+.linksList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:70%;
+}
+
+.subimt{
+    width: 100px;
+    height: 50px;
+    background: #111;
+    color: white;
+    border: none;
+    margin: 10px 0 0px 68%;
+}
+.subimt:focus{
+    outline: none;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+}
+.input{
+    width: 80%;
+    height: 50px;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    background: #111;
+}
+.input:focus{
+    outline: none;
+}
+.textArea{
+    width: 80%;
+    height: 170px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    background: #111;
+    padding: 30px;
+}
+.textArea:focus{
+    outline: none;
+}
+@media only screen and (max-width:500px){
+    .footerContainer{
+        flex-direction: column;
+        height: 100%;
+    }
+}

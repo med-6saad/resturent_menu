@@ -1,0 +1,15 @@
+.adminContainer{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.adminWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.a-sideBar-body{
+    display: flex;
+}
